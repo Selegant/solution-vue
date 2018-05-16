@@ -12,16 +12,17 @@ export default {
 
 <style>
   #app {
-
   }
   * {
     margin: 0;
     padding: 0;
   }
   html, body, #app, .wrapper {
-    width: 100%;
-    height: 100%;
-    background-color: deepskyblue;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      width: 100%;
+      height: 100%;
+      background-color: #141A48;
   }
   body {
     font-family: "microsoft yahei","PingFang-SC-Regular","Helvetica Neue", Helvetica, arial, STHeiTi, sans-serif;
