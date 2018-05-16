@@ -1,10 +1,8 @@
-
-
 <template>
     <div>
         <div id="canvascontainer" ref='can'></div>
-        <img src="<%= htmlWebpackPlugin.options.path %>images/title.png"/>
         <div id="login" class="login">
+            <img class="title" src="https://raw.githubusercontent.com/Selegant/solution-vue/master/static/image/title.png"/>
             <div class="login-con">
                 <Card :bordered="false">
                     <p slot="title">
@@ -159,11 +157,15 @@
         position: absolute;
         top: 150px;
     }
+    .title{
+        margin-bottom: 10%;
+        margin-left: -52%;
+    }
     .login {
         width: 20%;
         height: 10%;
         position: relative;
-        margin: 15% auto;
+        margin: 10% auto;
     }
     .form-con{
         padding: 10px 0 0;
